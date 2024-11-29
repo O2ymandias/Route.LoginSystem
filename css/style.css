@@ -1,0 +1,39 @@
+:root {
+    --mainColor: #24353f;
+    --secondaryColor: #17a2b8;
+}
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--mainColor);
+}
+
+h1 {
+    color: var(--secondaryColor);
+}
+
+.custom__shadow {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+#login .form-control::placeholder,
+#signUp .form-control::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#login .form-control,
+#signUp .form-control {
+    background-color: transparent;
+    color: #fff;
+}
+
+#login .form-control:focus,
+#signUp .form-control:focus {
+    box-shadow: none;
+}
+
+nav {
+    background-color: var(--mainColor);
+}
